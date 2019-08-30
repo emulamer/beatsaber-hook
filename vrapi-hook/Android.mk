@@ -17,16 +17,21 @@
 LOCAL_PATH := $(call my-dir)
 
 TARGET_ARCH_ABI := armeabi-v7a
+include $(CLEAR_VARS)
 
+LOCAL_MODULE            := curl_static
+LOCAL_SRC_FILES         := curl/libcurl.a
+LOCAL_EXPORT_C_INCLUDES := curl/include
+
+
+include $(PREBUILT_STATIC_LIBRARY)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := hook
-#LOCAL_SRC_FILES := $(LOCAL_PATH)/../obj/local/armeabi-v7a/libhook.a
-#LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/../include
 
 include $(CLEAR_VARS)
 LOCAL_LDLIBS := -llog
 LOCAL_MODULE    := vrapihook
-LOCAL_SRC_FILES := main.cpp ../shared/utils/utils.c ../shared/inline-hook/inlineHook.c ../shared/inline-hook/relocate.c
-#LOCAL_STATIC_LIBRARIES := libhook
+LOCAL_SRC_FILES := main.cpp fakes.cpp ../shared/utils/utils.c ../shared/inline-hook/inlineHook.c ../shared/inline-hook/relocate.c
+LOCAL_STATIC_LIBRARIES += curl_static
 include $(BUILD_SHARED_LIBRARY)

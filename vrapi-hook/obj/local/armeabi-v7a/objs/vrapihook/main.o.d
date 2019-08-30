@@ -4,8 +4,7 @@
   c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stdlib.h \
   c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\string.h \
   c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\errno.h \
-  ..\shared\inline-hook\inlineHook.h ..\shared\utils\utils.h \
-  VrApi_Input.h \
+  inline-hook\inlineHook.h VrApi_Input.h \
   c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stddef.h \
   c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stdint.h \
   VrApi_Config.h VrApi_Types.h \
@@ -55,7 +54,15 @@
   c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\climits \
   c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\limits.h \
   c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__mutex_base \
-  c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__threading_support
+  c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__threading_support \
+  main.h fakes.h \
+  c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\vector \
+  c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__bit_reference \
+  c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__split_buffer \
+  c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\set \
+  c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__tree \
+  c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__node_handle \
+  c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\optional
 
 c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stdio.h:
 
@@ -67,9 +74,7 @@ c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-
 
 c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\errno.h:
 
-..\shared\inline-hook\inlineHook.h:
-
-..\shared\utils\utils.h:
+inline-hook\inlineHook.h:
 
 VrApi_Input.h:
 
@@ -174,3 +179,21 @@ c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-
 c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__mutex_base:
 
 c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__threading_support:
+
+main.h:
+
+fakes.h:
+
+c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\vector:
+
+c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__bit_reference:
+
+c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__split_buffer:
+
+c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\set:
+
+c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__tree:
+
+c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__node_handle:
+
+c:\Users\VR\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\optional:
